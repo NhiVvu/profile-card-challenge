@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-attachment: fixed;
+    background-position: right 50vw bottom 45vh, left 50vw top 40vh;
+    background-repeat: no-repeat;   
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    margin: 30% 20px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+span {
+    color:hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+
+.bg-card {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.victor {
+    position: absolute;
+    left: 39%;
+    top: 35%;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+.london, p {
+    text-align: center;
+    font-size: 18px;
+    color:hsl(0, 0%, 59%);
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid lightgrey;
+    line-height: 7px;
+    padding-top: 25px;
+}
+
+@media (min-width:768px) {
+    body {
+        font-family: "Kumbh Sans", sans-serif;
+        background-color:hsl(185, 75%, 39%);
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-attachment: fixed;
+        background-position: right 60vw bottom 45vh, left 60vw top 45vh;
+        background-repeat: no-repeat;   
+    }
+
+    .container {
+        height: 500px;
+        width: 475px;
+        margin: 20vh auto;
+        background-color: #fff;
+        border-radius: 12px;
+        position: relative;
+        text-align: center;
+        padding-bottom: 15px;
+       }
+
+       .victor {
+        position: absolute;
+        left: 39%;
+        top: 25%;
+        border-radius: 100%;
+        border: 10px solid white;
+    }
+}
