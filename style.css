@@ -24,7 +24,7 @@ body {
     background-color: white;
     margin: 30% 20px;
     padding-bottom: 15px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 span {
@@ -34,7 +34,7 @@ span {
 
 .bg-card {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .victor {
@@ -42,7 +42,7 @@ span {
     left: 39%;
     top: 35%;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 10px solid white;
 }
 
 h1 {
@@ -71,7 +71,7 @@ h1 {
         background-color:hsl(185, 75%, 39%);
         background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
         background-attachment: fixed;
-        background-position: right 55vw bottom 45vh, left 55vw top 45vh;
+        background-position: right 60vw bottom 45vh, left 60vw top 45vh;
         background-repeat: no-repeat;   
     }
 
@@ -80,7 +80,7 @@ h1 {
         width: 475px;
         margin: 20vh auto;
         background-color: #fff;
-        border-radius: 20px;
+        border-radius: 12px;
         position: relative;
         text-align: center;
         padding-bottom: 15px;
@@ -91,6 +91,6 @@ h1 {
         left: 39%;
         top: 25%;
         border-radius: 100%;
-        border: 5px solid white;
+        border: 10px solid white;
     }
 }
